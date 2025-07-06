@@ -1,5 +1,5 @@
-import { Button } from "@/component/Button"
-import starsBG from "@/assets/stars.png"
+import { Button } from "@/component/Button";
+import starsBG from "@/assets/stars.png";
 
 export const Hero = () => {
     return (
@@ -35,5 +35,5 @@ export const Hero = () => {
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};

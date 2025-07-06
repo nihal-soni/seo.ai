@@ -4,7 +4,7 @@ import Image from "next/image";
 import avatar1 from "@/assets/avatar-1.png";
 import avatar2 from "@/assets/avatar-2.png";
 import avatar3 from "@/assets/avatar-3.png";
-import avatar4 from "@/assets/avatar-4.png"
+import avatar4 from "@/assets/avatar-4.png";
 
 
 
@@ -36,7 +36,8 @@ const testimonials = [
 ]
 
 export const Testimonial = () => {
-    return <section className="py-20 md:py-24">
+    return (
+     <section className="py-20 md:py-24 px-4">
         <div className="container mx-auto">
             <h2 className="text-5xl md:text-6xl text-center tracking-tighter font-medium">Beyond Expectations.</h2>
             <p className="text-white/70 text-lg md:text-xl text-center mt-5 tracking-tight max-w-sm mx-auto">
@@ -64,4 +65,5 @@ export const Testimonial = () => {
             </div>
         </div>
     </section>
-}
+    );
+};
